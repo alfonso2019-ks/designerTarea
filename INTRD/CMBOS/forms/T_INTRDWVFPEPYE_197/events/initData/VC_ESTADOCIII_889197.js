@@ -5,6 +5,4 @@
 task.initData.VC_ESTADOCIII_889197 = function (entities, initDataEventArgs){
 
     initDataEventArgs.commons.execServer = false;
-    initDataEventArgs.commons.api.viewState.disable('G_ESTADOCIIV_934218');
-    
 };

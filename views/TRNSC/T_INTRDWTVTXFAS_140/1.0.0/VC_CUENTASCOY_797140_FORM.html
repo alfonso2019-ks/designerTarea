@@ -1,0 +1,89 @@
+<!-- Designer Generator v 7.2.0 - SPR 2020-24 4/12/2020 -->
+<html>
+ <head></head>
+ <body>
+  <div id="bc_VC_CUENTASCOY_797140" class="cb-breadcrumb" ng-if="!vc.isModal(this) && !vc.isDetailGrid(this) && !isDesignerInclude" ng-class="vc.viewState.VC_CUENTASCOY_797140.style"> 
+   <ol class="breadcrumb"> 
+    <li>Inicio</li> 
+    <li ng-repeat="breadcrumb in breadcrumbs.get() track by breadcrumb.path" ng-class="{ active: !$last }"> {{ breadcrumb.label | translate }} </li> 
+   </ol> 
+  </div> 
+  <!-- Inicio item VW_CUENTASCPP_547--> 
+  <div id="VC_CUENTASCOY_797140" ng-keydown="vc.viewState.keyDown($event)" class=" cb-view-container-root cb-view-container cb-group-layout" ng-class="{'container':!vc.isModal(this) && !vc.isDetailGrid(this) && !isDesignerInclude && true, 'container-fluid':vc.isModal(this) || isDesignerInclude || false, 'cb-invisible': !vc.loaded}"> 
+   <div id="G_CUENTASOCO_516547" ng-show="vc.viewState.G_CUENTASOCO_516547.visible" ng-class="vc.viewState.G_CUENTASOCO_516547.style" class="cb-group cb-group-simple"> 
+    <div kendo-validator="G_CUENTASOCO_516547" k-options="validatorOptions" id="G_CUENTASOCO_516547_VAL"> 
+     <div class="form-vertical"> 
+      <div class="row"> 
+       <div class="col-xs-3" ng-show="vc.viewState.VA_NUMEROCUENTALRO_542547.visible"> 
+        <div class="form-group cb-required" id="VA_NUMEROCUENTALRO_542547_DIV"> 
+         <label for="VA_NUMEROCUENTALRO_542547" title="{{vc.viewState.VA_NUMEROCUENTALRO_542547.label|translate:vc.viewState.VA_NUMEROCUENTALRO_542547.labelArgs}}" ng-show="vc.viewState.VA_NUMEROCUENTALRO_542547.visible" class="control-label">{{vc.viewState.VA_NUMEROCUENTALRO_542547.label|translate:vc.viewState.VA_NUMEROCUENTALRO_542547.labelArgs}}</label> 
+         <div class="cb-control"> 
+          <input id="VA_NUMEROCUENTALRO_542547" name="CuentaOrigen_numeroCuenta" kendo-numeric-text-box k-spinners="false" k-step="0" datatypes-limit="N" k-decimals="vc.viewState.VA_NUMEROCUENTALRO_542547.decimals" k-ng-delay="vc.afterInitData" k-format="vc.viewState.VA_NUMEROCUENTALRO_542547.format" maxlength="5" k-ng-model="vc.model.CuentaOrigen.numeroCuenta" ng-model="vc.tmpModel.CuentaOrigen.numeroCuenta" ng-disabled="vc.viewState.VA_NUMEROCUENTALRO_542547.disabled || vc.viewState.VA_NUMEROCUENTALRO_542547.disabledingroup" ng-show="vc.viewState.VA_NUMEROCUENTALRO_542547.visible" ng-readonly="vc.viewState.VA_NUMEROCUENTALRO_542547.readonly" ng-class="vc.viewState.VA_NUMEROCUENTALRO_542547.style" data-cobis-group="Group,G_CUENTASOCO_516547,0" ng-model-onblur required data-validation-code="{{vc.viewState.VA_NUMEROCUENTALRO_542547.validationCode}}" data-required-msg="{{'INTRD.LBL_INTRD_NMEROCUTN_73571'|translate}} {{'DSGNR.SYS_DSGNR_MSGREQURF_00032'|translate}}" /> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="col-xs-3" ng-show="vc.viewState.VA_SALDOKLVOFEEPNG_987547.visible"> 
+        <div class="form-group cb-required" id="VA_SALDOKLVOFEEPNG_987547_DIV"> 
+         <label for="VA_SALDOKLVOFEEPNG_987547" title="{{vc.viewState.VA_SALDOKLVOFEEPNG_987547.label|translate:vc.viewState.VA_SALDOKLVOFEEPNG_987547.labelArgs}}" ng-show="vc.viewState.VA_SALDOKLVOFEEPNG_987547.visible" class="control-label">{{vc.viewState.VA_SALDOKLVOFEEPNG_987547.label|translate:vc.viewState.VA_SALDOKLVOFEEPNG_987547.labelArgs}}</label> 
+         <div class="cb-control"> 
+          <input id="VA_SALDOKLVOFEEPNG_987547" name="CuentaOrigen_saldo" kendo-numeric-text-box k-spinners="false" k-step="0" datatypes-limit="N" k-ng-delay="vc.afterInitData" k-format="vc.viewState.VA_SALDOKLVOFEEPNG_987547.format" k-decimals="vc.viewState.VA_SALDOKLVOFEEPNG_987547.decimals" maxlength="13" k-ng-model="vc.model.CuentaOrigen.saldo" ng-model="vc.tmpModel.CuentaOrigen.saldo" ng-disabled="vc.viewState.VA_SALDOKLVOFEEPNG_987547.disabled || vc.viewState.VA_SALDOKLVOFEEPNG_987547.disabledingroup" ng-show="vc.viewState.VA_SALDOKLVOFEEPNG_987547.visible" ng-readonly="vc.viewState.VA_SALDOKLVOFEEPNG_987547.readonly" ng-class="vc.viewState.VA_SALDOKLVOFEEPNG_987547.style" data-cobis-group="Group,G_CUENTASOCO_516547,0" ng-model-onblur required data-validation-code="{{vc.viewState.VA_SALDOKLVOFEEPNG_987547.validationCode}}" data-required-msg="{{'INTRD.LBL_INTRD_SALDOSWME_55102'|translate}} {{'DSGNR.SYS_DSGNR_MSGREQURF_00032'|translate}}" /> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="col-xs-3" ng-show="vc.viewState.VA_VALORATRANSFRIR_299547.visible"> 
+        <div class="form-group cb-required" id="VA_VALORATRANSFRIR_299547_DIV"> 
+         <label for="VA_VALORATRANSFRIR_299547" title="{{vc.viewState.VA_VALORATRANSFRIR_299547.label|translate:vc.viewState.VA_VALORATRANSFRIR_299547.labelArgs}}" ng-show="vc.viewState.VA_VALORATRANSFRIR_299547.visible" class="control-label">{{vc.viewState.VA_VALORATRANSFRIR_299547.label|translate:vc.viewState.VA_VALORATRANSFRIR_299547.labelArgs}}</label> 
+         <div class="cb-control"> 
+          <input id="VA_VALORATRANSFRIR_299547" name="CuentaOrigen_valorATransferir" kendo-numeric-text-box k-spinners="false" k-step="0" datatypes-limit="N" k-ng-delay="vc.afterInitData" k-format="vc.viewState.VA_VALORATRANSFRIR_299547.format" k-decimals="vc.viewState.VA_VALORATRANSFRIR_299547.decimals" maxlength="13" k-ng-model="vc.model.CuentaOrigen.valorATransferir" ng-model="vc.tmpModel.CuentaOrigen.valorATransferir" ng-disabled="vc.viewState.VA_VALORATRANSFRIR_299547.disabled || vc.viewState.VA_VALORATRANSFRIR_299547.disabledingroup" ng-show="vc.viewState.VA_VALORATRANSFRIR_299547.visible" ng-readonly="vc.viewState.VA_VALORATRANSFRIR_299547.readonly" ng-class="vc.viewState.VA_VALORATRANSFRIR_299547.style" data-cobis-group="Group,G_CUENTASOCO_516547,0" ng-model-onblur required data-validation-code="{{vc.viewState.VA_VALORATRANSFRIR_299547.validationCode}}" data-required-msg="{{'INTRD.LBL_INTRD_VALORATRN_68424'|translate}} {{'DSGNR.SYS_DSGNR_MSGREQURF_00032'|translate}}" /> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="col-xs-3" ng-show="vc.viewState.VA_VAVABUTTONMWYML_226547.visible"> 
+        <div class="form-group"> 
+         <label class="control-label">&nbsp;</label> 
+         <div class="cb-control"> 
+          <button id="VA_VAVABUTTONMWYML_226547" class="btn btn-default btn-block" ng-click="vc.executeCommand('VA_VAVABUTTONMWYML_226547','VA_VAVABUTTONMWYML_226547',validator,false, false,'', false)" ng-disabled="vc.viewState.VA_VAVABUTTONMWYML_226547.disabled || vc.viewState.VA_VAVABUTTONMWYML_226547.disabledingroup" ng-show="vc.viewState.VA_VAVABUTTONMWYML_226547.visible" ng-class="vc.viewState.VA_VAVABUTTONMWYML_226547.style"> {{vc.viewState.VA_VAVABUTTONMWYML_226547.label|translate}} </button> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div id="G_CUENTASCCC_483547" ng-show="vc.viewState.G_CUENTASCCC_483547.visible" ng-class="vc.viewState.G_CUENTASCCC_483547.style" class="cb-group cb-group-simple"> 
+    <div kendo-validator="G_CUENTASCCC_483547" k-options="validatorOptions" id="G_CUENTASCCC_483547_VAL"> 
+     <div class="form-vertical"> 
+      <div class="row"> 
+       <div class="col-xs-3" ng-show="vc.viewState.VA_NUMERODECUENTAA_674547.visible"> 
+        <div class="form-group cb-required" id="VA_NUMERODECUENTAA_674547_DIV"> 
+         <label for="VA_NUMERODECUENTAA_674547" title="{{vc.viewState.VA_NUMERODECUENTAA_674547.label|translate:vc.viewState.VA_NUMERODECUENTAA_674547.labelArgs}}" ng-show="vc.viewState.VA_NUMERODECUENTAA_674547.visible" class="control-label">{{vc.viewState.VA_NUMERODECUENTAA_674547.label|translate:vc.viewState.VA_NUMERODECUENTAA_674547.labelArgs}}</label> 
+         <div class="cb-control"> 
+          <input id="VA_NUMERODECUENTAA_674547" name="CuentaDestino_numeroDeCuenta" kendo-numeric-text-box k-spinners="false" k-step="0" datatypes-limit="N" k-decimals="vc.viewState.VA_NUMERODECUENTAA_674547.decimals" k-ng-delay="vc.afterInitData" k-format="vc.viewState.VA_NUMERODECUENTAA_674547.format" maxlength="5" k-ng-model="vc.model.CuentaDestino.numeroDeCuenta" ng-model="vc.tmpModel.CuentaDestino.numeroDeCuenta" ng-disabled="vc.viewState.VA_NUMERODECUENTAA_674547.disabled || vc.viewState.VA_NUMERODECUENTAA_674547.disabledingroup" ng-show="vc.viewState.VA_NUMERODECUENTAA_674547.visible" ng-readonly="vc.viewState.VA_NUMERODECUENTAA_674547.readonly" ng-class="vc.viewState.VA_NUMERODECUENTAA_674547.style" data-cobis-group="Group,G_CUENTASCCC_483547,0" ng-model-onblur required data-validation-code="{{vc.viewState.VA_NUMERODECUENTAA_674547.validationCode}}" data-required-msg="{{'INTRD.LBL_INTRD_NMEROCUTN_73571'|translate}} {{'DSGNR.SYS_DSGNR_MSGREQURF_00032'|translate}}" /> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="col-xs-3" ng-show="vc.viewState.VA_SALDOJQJVKRHYMX_299547.visible"> 
+        <div class="form-group cb-required" id="VA_SALDOJQJVKRHYMX_299547_DIV"> 
+         <label for="VA_SALDOJQJVKRHYMX_299547" title="{{vc.viewState.VA_SALDOJQJVKRHYMX_299547.label|translate:vc.viewState.VA_SALDOJQJVKRHYMX_299547.labelArgs}}" ng-show="vc.viewState.VA_SALDOJQJVKRHYMX_299547.visible" class="control-label">{{vc.viewState.VA_SALDOJQJVKRHYMX_299547.label|translate:vc.viewState.VA_SALDOJQJVKRHYMX_299547.labelArgs}}</label> 
+         <div class="cb-control"> 
+          <input id="VA_SALDOJQJVKRHYMX_299547" name="CuentaDestino_saldo" kendo-numeric-text-box k-spinners="false" k-step="0" datatypes-limit="N" k-ng-delay="vc.afterInitData" k-format="vc.viewState.VA_SALDOJQJVKRHYMX_299547.format" k-decimals="vc.viewState.VA_SALDOJQJVKRHYMX_299547.decimals" maxlength="13" k-ng-model="vc.model.CuentaDestino.saldo" ng-model="vc.tmpModel.CuentaDestino.saldo" ng-disabled="vc.viewState.VA_SALDOJQJVKRHYMX_299547.disabled || vc.viewState.VA_SALDOJQJVKRHYMX_299547.disabledingroup" ng-show="vc.viewState.VA_SALDOJQJVKRHYMX_299547.visible" ng-readonly="vc.viewState.VA_SALDOJQJVKRHYMX_299547.readonly" ng-class="vc.viewState.VA_SALDOJQJVKRHYMX_299547.style" data-cobis-group="Group,G_CUENTASCCC_483547,0" ng-model-onblur required data-validation-code="{{vc.viewState.VA_SALDOJQJVKRHYMX_299547.validationCode}}" data-required-msg="{{'INTRD.LBL_INTRD_SALDOSWME_55102'|translate}} {{'DSGNR.SYS_DSGNR_MSGREQURF_00032'|translate}}" /> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- Fin item VW_CUENTASCPP_547--> 
+  <div class="cb-view-loading cb-view-loading-preload"> 
+   <div class="cb-view-loading-icon"></div> 
+  </div> 
+  <div class="cb-navbar cb-navbar-bottom" ng-if="vc.childVc && vc.autoSyncNavigation"> 
+   <nav ng-class="vc.getCssClass('',['navbar', 'navbar-default'] ,{'navbar-fixed-bottom': (!vc.isModal(this) && !vc.isDetailGrid(this))})"> 
+    <button id="T_INTRDWTVTXFAS_140_ACCEPT" class="btn btn-primary navbar-btn" ng-click="vc.accept(validator, $event, false, 'VC_CUENTASCOY_797140')" ng-disabled="vc.viewState.T_INTRDWTVTXFAS_140_ACCEPT.disabled || vc.viewState.T_INTRDWTVTXFAS_140_ACCEPT.disabledingroup" ng-show="vc.viewState.T_INTRDWTVTXFAS_140_ACCEPT.visible" ng-class="vc.viewState.T_INTRDWTVTXFAS_140_ACCEPT.style">{{'DSGNR.SYS_DSGNR_LBLACEPT0_00007'|translate}}</button> 
+    <button id="T_INTRDWTVTXFAS_140_CANCEL" class="btn btn-default navbar-btn" ng-click="vc.cancel(validator, $event)" ng-disabled="vc.viewState.T_INTRDWTVTXFAS_140_CANCEL.disabled || vc.viewState.T_INTRDWTVTXFAS_140_CANCEL.disabledingroup" ng-show="vc.viewState.T_INTRDWTVTXFAS_140_CANCEL.visible" ng-class="vc.viewState.T_INTRDWTVTXFAS_140_CANCEL.style">{{'DSGNR.SYS_DSGNR_LBLCANCEL_00006'|translate}}</button> 
+   </nav> 
+  </div>
+ </body>
+</html>

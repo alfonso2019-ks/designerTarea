@@ -1,30 +1,30 @@
 //Designer Generator v 7.2.0 - SPR 2020-24 4/12/2020
 var designerEvents = designerEvents || {};
 designerEvents.api = designerEvents.api || {};
-designerEvents.api.formestadocivil = designerEvents.api.formestadocivil || designer.dsgEvents();
+designerEvents.api.formcuentas = designerEvents.api.formcuentas || designer.dsgEvents();
 
-function VC_ESTADOCIII_889197(cobisMainModule) {
-    cobisMainModule.controllerProvider.register("VC_ESTADOCIII_889197_MAIN_CTRL", ["$scope", "breadcrumbs",
+function VC_CUENTASCOY_797140(cobisMainModule) {
+    cobisMainModule.controllerProvider.register("VC_CUENTASCOY_797140_MAIN_CTRL", ["$scope", "breadcrumbs",
 
     function($scope, breadcrumbs) {
         $scope.breadcrumbs = breadcrumbs;
     }]);
-    cobisMainModule.controllerProvider.register("VC_ESTADOCIII_889197_CTRL", ["cobisMessage", cobis.modules.CONTAINER + ".preferencesService", "dsgnrUtils", "designer", "$scope", "$location", "$document", "$parse", "$filter", "$modal", "$q", "$compile", "$timeout", "$translate",
+    cobisMainModule.controllerProvider.register("VC_CUENTASCOY_797140_CTRL", ["cobisMessage", cobis.modules.CONTAINER + ".preferencesService", "dsgnrUtils", "designer", "$scope", "$location", "$document", "$parse", "$filter", "$modal", "$q", "$compile", "$timeout", "$translate",
 
     function(cobisMessage, preferencesService, dsgnrUtils, designer, $scope, $location, $document, $parse, $filter, $modal, $q, $compile, $timeout, $translate) {
         $scope.designer = designer;
         $scope.validatorOptions = validatorOptions;
         $scope.vc = designer.initViewContainer({
             moduleId: "INTRD",
-            subModuleId: "CMBOS",
-            taskId: "T_INTRDWVFPEPYE_197",
+            subModuleId: "TRNSC",
+            taskId: "T_INTRDWTVTXFAS_140",
             taskVersion: "1.0.0",
-            viewContainerId: "VC_ESTADOCIII_889197",
+            viewContainerId: "VC_CUENTASCOY_797140",
             hasCloseModalEvent: false,
             serverEvents: true
         },
-            "${contextPath}/resources/INTRD/CMBOS/T_INTRDWVFPEPYE_197",
-        designerEvents.api.formestadocivil,
+            "${contextPath}/resources/INTRD/TRNSC/T_INTRDWTVTXFAS_140",
+        designerEvents.api.formcuentas,
         $scope.rowData);
         $scope.kendo = kendo;
         //Lectura de Preferencias Visuales del Usuario, si no existen se aplican unas por default
@@ -46,9 +46,9 @@ function VC_ESTADOCIII_889197(cobisMainModule) {
         if (!$scope.vc.loaded) {
             var page = {
                 hasTemporaryDataSupport: false,
-                hasInitDataSupport: false,
+                hasInitDataSupport: true,
                 hasChangeInitDataSupport: false,
-                hasSearchRenderEvent: true,
+                hasSearchRenderEvent: false,
                 ejecTemporaryData: false,
                 ejecInitData: false,
                 ejecChangeInitData: false,
@@ -57,7 +57,7 @@ function VC_ESTADOCIII_889197(cobisMainModule) {
                 hasInitData: false,
                 hasChangeInitData: false,
                 hasCRUDSupport: false,
-                vcName: 'VC_ESTADOCIII_889197'
+                vcName: 'VC_CUENTASCOY_797140'
             };
             if (typeof designer.constants.cobisPatterns !== 'undefined' && typeof designer.constants.cobisPatterns.formType !== 'undefined') {
                 $scope.vc.cobisPattern = designer.constants.cobisPatterns.formType.NONE;
@@ -86,28 +86,30 @@ function VC_ESTADOCIII_889197(cobisMainModule) {
             $scope.vc.metadata = {
                 taskPk: {
                     moduleId: 'INTRD',
-                    subModuleId: 'CMBOS',
-                    taskId: 'T_INTRDWVFPEPYE_197',
+                    subModuleId: 'TRNSC',
+                    taskId: 'T_INTRDWTVTXFAS_140',
                     version: '1.0.0',
                     user: $scope.vc.args.user
                 },
                 entityNames: {
-                    EstadoCivil: "EstadoCivil",
-                    RespuestaEstadoCivil: "RespuestaEstadoCivil"
+                    CuentaDestino: "CuentaDestino",
+                    CuentaOrigen: "CuentaOrigen"
                 },
                 entities: {
-                    EstadoCivil: {
-                        estadoCivil: 'AT89_ESTADOII757',
+                    CuentaDestino: {
+                        numeroDeCuenta: 'AT53_NUMEROAN421',
+                        saldo: 'AT87_SALDOARH421',
                         _pks: [],
-                        _entityId: 'EN_ESTADOCVL_757',
+                        _entityId: 'EN_CUENTADNS_421',
                         _entityVersion: '1.0.0',
                         _transient: false
                     },
-                    RespuestaEstadoCivil: {
-                        actividadActual: 'AT41_ACTIVIUD841',
-                        estadoCivil: 'AT50_ESTADOVV841',
+                    CuentaOrigen: {
+                        valorATransferir: 'AT11_VALORART260',
+                        numeroCuenta: 'AT63_NUMEROCN260',
+                        saldo: 'AT68_SALDOIDV260',
                         _pks: [],
-                        _entityId: 'EN_RESPUESOD_841',
+                        _entityId: 'EN_CUENTAORN_260',
                         _entityVersion: '1.0.0',
                         _transient: false
                     }
@@ -116,8 +118,8 @@ function VC_ESTADOCIII_889197(cobisMainModule) {
             };
             $scope.vc.queryProperties = {};
             var defaultValues = {
-                EstadoCivil: {},
-                RespuestaEstadoCivil: {}
+                CuentaDestino: {},
+                CuentaOrigen: {}
             };
             $scope.vc.channelDefaultValues = function(entityName, attributeName, valueIfNotExist) {
                 var channel = $scope.vc.args.channel;
@@ -147,7 +149,7 @@ function VC_ESTADOCIII_889197(cobisMainModule) {
                     trackers: $scope.vc.trackers,
                     temporaryStorePK: $scope.vc.metadata.taskPk
                 };
-                $scope.vc.execute("temporarySave", VC_ESTADOCIII_889197, data, function() {});
+                $scope.vc.execute("temporarySave", VC_CUENTASCOY_797140, data, function() {});
             };
             $scope.vc.temporaryRead = function() {
                 if (page.hasTemporaryDataSupport) {
@@ -155,12 +157,12 @@ function VC_ESTADOCIII_889197(cobisMainModule) {
                         model: $scope.vc.model,
                         temporaryStorePK: $scope.vc.metadata.taskPk
                     };
-                    return $scope.vc.executeService("readTemporaryData", VC_ESTADOCIII_889197, data).then(
+                    return $scope.vc.executeService("readTemporaryData", VC_CUENTASCOY_797140, data).then(
 
                     function(response) {
                         var result = $scope.vc.processTemporaryResponse(response);
                         if (result) {
-                            $scope.vc.execute("deleteTemporaryData", VC_ESTADOCIII_889197, data, function() {});
+                            $scope.vc.execute("deleteTemporaryData", VC_CUENTASCOY_797140, data, function() {});
                             $scope.vc.crud.addTrackers($scope.vc.model);
                         }
                         page.hasTemporaryData = result;
@@ -176,105 +178,168 @@ function VC_ESTADOCIII_889197(cobisMainModule) {
             $scope.vc.viewState.keyDown = function(e) {
                 dsgnrUtils.container.validateOnEnter(e, $scope.vc);
             };
-            $scope.vc.viewState.VC_ESTADOCIII_889197 = {
+            $scope.vc.viewState.VC_CUENTASCOY_797140 = {
                 style: []
             };
-            $scope.vc.model.EstadoCivil = {
-                estadoCivil: $scope.vc.channelDefaultValues("EstadoCivil", "estadoCivil")
+            $scope.vc.model.CuentaOrigen = {
+                valorATransferir: $scope.vc.channelDefaultValues("CuentaOrigen", "valorATransferir"),
+                numeroCuenta: $scope.vc.channelDefaultValues("CuentaOrigen", "numeroCuenta"),
+                saldo: $scope.vc.channelDefaultValues("CuentaOrigen", "saldo")
             };
-            //ViewState - Group: Group1349
+            //ViewState - Group: Group1581
             $scope.vc.createViewState({
-                id: "G_ESTADOCVVV_666218",
+                id: "G_CUENTASOCO_516547",
                 hasId: true,
                 componentStyle: [],
-                label: 'Group1349',
+                label: 'Group1581',
                 enabled: designer.constants.mode.All,
                 visible: designer.constants.mode.All
             });
-            //ViewState - Entity: EstadoCivil, Attribute: estadoCivil
+            //ViewState - Entity: CuentaOrigen, Attribute: numeroCuenta
             $scope.vc.createViewState({
-                id: "VA_1FPVTJRNDUEBZZE_366218",
+                id: "VA_NUMEROCUENTALRO_542547",
                 componentStyle: [],
-                label: "INTRD.LBL_INTRD_ESTADOCII_87629",
+                label: "INTRD.LBL_INTRD_NMEROCUTN_73571",
+                format: "n0",
+                decimals: 0,
                 validationCode: 32,
                 readOnly: designer.constants.mode.Query,
                 enabled: designer.constants.mode.All,
-                visible: designer.constants.mode.All,
-                isComboBox: true
+                visible: designer.constants.mode.All
             });
-            $scope.vc.catalogs.VA_1FPVTJRNDUEBZZE_366218 = new kendo.data.DataSource({
-                transport: {
-                    read: function(options) {
-                        var data = [{
-                            code: '0',
-                            value: 'Seleccionar'
-                        }, {
-                            code: '1',
-                            value: 'Soltero'
-                        }, {
-                            code: '2',
-                            value: 'Casado'
-                        }];
-                        options.success(data);
-                        $scope.vc.setComboBoxDefaultValue("VA_1FPVTJRNDUEBZZE_366218", true, data[0], 'code', data);
-                        $scope.vc.setEnableAndReadonlyStatus("VA_1FPVTJRNDUEBZZE_366218");
-                    }
-                },
-                requestStart: function(e) {
-                    $scope.vc.requestStartRead(e, "VA_1FPVTJRNDUEBZZE_366218", null);
-                },
-                serverFiltering: true,
-                schema: {
-                    model: {
-                        id: "code"
+            //watch tmpModel - Entity: CuentaOrigen, Attribute: numeroCuenta
+            $scope.$watch('vc.model.CuentaOrigen.numeroCuenta', function(newValue, oldValue) {
+                if (newValue !== oldValue) {
+                    if (angular.isDefined($scope.vc.tmpModel.CuentaOrigen)) {
+                        $scope.vc.tmpModel.CuentaOrigen.numeroCuenta = newValue;
+                    } else {
+                        $scope.vc.tmpModel.CuentaOrigen = {
+                            numeroCuenta: newValue
+                        };
                     }
                 }
             });
-            $scope.vc.model.RespuestaEstadoCivil = {
-                actividadActual: $scope.vc.channelDefaultValues("RespuestaEstadoCivil", "actividadActual"),
-                estadoCivil: $scope.vc.channelDefaultValues("RespuestaEstadoCivil", "estadoCivil")
-            };
-            //ViewState - Group: Group2880
+            //ViewState - Entity: CuentaOrigen, Attribute: saldo
             $scope.vc.createViewState({
-                id: "G_ESTADOCIIV_934218",
-                hasId: true,
+                id: "VA_SALDOKLVOFEEPNG_987547",
                 componentStyle: [],
-                label: 'Group2880',
-                enabled: designer.constants.mode.All,
-                visible: designer.constants.mode.All
-            });
-            //ViewState - Entity: RespuestaEstadoCivil, Attribute: estadoCivil
-            $scope.vc.createViewState({
-                id: "VA_1WTMWVGOAUUCDFK_831218",
-                componentStyle: [],
-                label: "INTRD.LBL_INTRD_ESTADOCII_87629",
+                label: "INTRD.LBL_INTRD_SALDOSWME_55102",
+                format: "n",
+                decimals: kendo.cultures.current.numberFormat.decimals,
                 validationCode: 32,
                 readOnly: designer.constants.mode.Query,
                 enabled: designer.constants.mode.All,
                 visible: designer.constants.mode.All
             });
-            //ViewState - Entity: RespuestaEstadoCivil, Attribute: actividadActual
+            //watch tmpModel - Entity: CuentaOrigen, Attribute: saldo
+            $scope.$watch('vc.model.CuentaOrigen.saldo', function(newValue, oldValue) {
+                if (newValue !== oldValue) {
+                    if (angular.isDefined($scope.vc.tmpModel.CuentaOrigen)) {
+                        $scope.vc.tmpModel.CuentaOrigen.saldo = newValue;
+                    } else {
+                        $scope.vc.tmpModel.CuentaOrigen = {
+                            saldo: newValue
+                        };
+                    }
+                }
+            });
+            //ViewState - Entity: CuentaOrigen, Attribute: valorATransferir
             $scope.vc.createViewState({
-                id: "VA_2HBCVKWBJPBGAGF_261218",
+                id: "VA_VALORATRANSFRIR_299547",
                 componentStyle: [],
-                label: "INTRD.LBL_INTRD_ACTIVIDCD_94395",
+                label: "INTRD.LBL_INTRD_VALORATRN_68424",
+                format: "n",
+                decimals: kendo.cultures.current.numberFormat.decimals,
                 validationCode: 32,
                 readOnly: designer.constants.mode.Query,
                 enabled: designer.constants.mode.All,
                 visible: designer.constants.mode.All
             });
+            //watch tmpModel - Entity: CuentaOrigen, Attribute: valorATransferir
+            $scope.$watch('vc.model.CuentaOrigen.valorATransferir', function(newValue, oldValue) {
+                if (newValue !== oldValue) {
+                    if (angular.isDefined($scope.vc.tmpModel.CuentaOrigen)) {
+                        $scope.vc.tmpModel.CuentaOrigen.valorATransferir = newValue;
+                    } else {
+                        $scope.vc.tmpModel.CuentaOrigen = {
+                            valorATransferir: newValue
+                        };
+                    }
+                }
+            });
             $scope.vc.createViewState({
-                id: "VA_VABUTTONAYOWPAV_602218",
+                id: "VA_VAVABUTTONMWYML_226547",
                 componentStyle: [],
-                label: "INTRD.LBL_INTRD_RESTAURRA_35157",
+                label: "INTRD.LBL_INTRD_TRANSFERI_88002",
                 validationCode: 0,
                 readOnly: designer.constants.mode.None,
                 enabled: designer.constants.mode.All,
                 visible: designer.constants.mode.All
             });
+            $scope.vc.model.CuentaDestino = {
+                numeroDeCuenta: $scope.vc.channelDefaultValues("CuentaDestino", "numeroDeCuenta"),
+                saldo: $scope.vc.channelDefaultValues("CuentaDestino", "saldo")
+            };
+            //ViewState - Group: Group2678
+            $scope.vc.createViewState({
+                id: "G_CUENTASCCC_483547",
+                hasId: true,
+                componentStyle: [],
+                label: 'Group2678',
+                enabled: designer.constants.mode.All,
+                visible: designer.constants.mode.All
+            });
+            //ViewState - Entity: CuentaDestino, Attribute: numeroDeCuenta
+            $scope.vc.createViewState({
+                id: "VA_NUMERODECUENTAA_674547",
+                componentStyle: [],
+                label: "INTRD.LBL_INTRD_NMEROCUTN_73571",
+                format: "n0",
+                decimals: 0,
+                validationCode: 32,
+                readOnly: designer.constants.mode.Query,
+                enabled: designer.constants.mode.All,
+                visible: designer.constants.mode.All
+            });
+            //watch tmpModel - Entity: CuentaDestino, Attribute: numeroDeCuenta
+            $scope.$watch('vc.model.CuentaDestino.numeroDeCuenta', function(newValue, oldValue) {
+                if (newValue !== oldValue) {
+                    if (angular.isDefined($scope.vc.tmpModel.CuentaDestino)) {
+                        $scope.vc.tmpModel.CuentaDestino.numeroDeCuenta = newValue;
+                    } else {
+                        $scope.vc.tmpModel.CuentaDestino = {
+                            numeroDeCuenta: newValue
+                        };
+                    }
+                }
+            });
+            //ViewState - Entity: CuentaDestino, Attribute: saldo
+            $scope.vc.createViewState({
+                id: "VA_SALDOJQJVKRHYMX_299547",
+                componentStyle: [],
+                label: "INTRD.LBL_INTRD_SALDOSWME_55102",
+                format: "n",
+                decimals: kendo.cultures.current.numberFormat.decimals,
+                validationCode: 32,
+                readOnly: designer.constants.mode.Query,
+                enabled: designer.constants.mode.All,
+                visible: designer.constants.mode.All
+            });
+            //watch tmpModel - Entity: CuentaDestino, Attribute: saldo
+            $scope.$watch('vc.model.CuentaDestino.saldo', function(newValue, oldValue) {
+                if (newValue !== oldValue) {
+                    if (angular.isDefined($scope.vc.tmpModel.CuentaDestino)) {
+                        $scope.vc.tmpModel.CuentaDestino.saldo = newValue;
+                    } else {
+                        $scope.vc.tmpModel.CuentaDestino = {
+                            saldo: newValue
+                        };
+                    }
+                }
+            });
             //ViewState - Command: Accept
             $scope.vc.createViewState({
-                id: "T_INTRDWVFPEPYE_197_ACCEPT",
+                id: "T_INTRDWTVTXFAS_140_ACCEPT",
                 componentStyle: [],
                 label: 'Accept',
                 enabled: designer.constants.mode.All,
@@ -282,7 +347,7 @@ function VC_ESTADOCIII_889197(cobisMainModule) {
             });
             //ViewState - Command: Cancel
             $scope.vc.createViewState({
-                id: "T_INTRDWVFPEPYE_197_CANCEL",
+                id: "T_INTRDWTVTXFAS_140_CANCEL",
                 componentStyle: [],
                 label: 'Cancel',
                 enabled: designer.constants.mode.All,
@@ -322,7 +387,7 @@ function VC_ESTADOCIII_889197(cobisMainModule) {
         };
         $scope._initPage_ProcessRender = function(page) {
             if (page.hasSearchRenderEvent) {
-                $scope.vc.render('VC_ESTADOCIII_889197');
+                $scope.vc.render('VC_CUENTASCOY_797140');
             }
             return page;
         };
@@ -365,7 +430,7 @@ function VC_ESTADOCIII_889197(cobisMainModule) {
     }]);
 }
 if (typeof cobisMainModule === "undefined") {
-    var cobisMainModule = cobis.createModule("VC_ESTADOCIII_889197", ["ngResource", "ngRoute", "kendo.directives", "ui.bootstrap", "oc.lazyLoad", "pascalprecht.translate", cobis.modules.CONTAINER, "designerModule"], ["DSGNR", "INTRD"]);
+    var cobisMainModule = cobis.createModule("VC_CUENTASCOY_797140", ["ngResource", "ngRoute", "kendo.directives", "ui.bootstrap", "oc.lazyLoad", "pascalprecht.translate", cobis.modules.CONTAINER, "designerModule"], ["DSGNR", "INTRD"]);
     cobisMainModule.config(["$controllerProvider", "$compileProvider", "$filterProvider", "$locationProvider", "$routeProvider", "$provide", "$translateProvider", "$translatePartialLoaderProvider", "$ocLazyLoadProvider",
 
     function($controllerProvider, $compileProvider, $filterProvider, $locationProvider, $routeProvider, $provide, $translateProvider, $translatePartialLoaderProvider, $ocLazyLoadProvider) {
@@ -379,10 +444,10 @@ if (typeof cobisMainModule === "undefined") {
         cobisMainModule.filterProvider = $filterProvider;
         cobisMainModule.provide = $provide;
         var culture = cobis.userContext.getValue(cobis.constant.CULTURE);
-        $routeProvider.when("/VC_ESTADOCIII_889197", {
-            templateUrl: "VC_ESTADOCIII_889197_FORM.html",
-            controller: "VC_ESTADOCIII_889197_CTRL",
-            label: "FormEstadoCivil",
+        $routeProvider.when("/VC_CUENTASCOY_797140", {
+            templateUrl: "VC_CUENTASCOY_797140_FORM.html",
+            controller: "VC_CUENTASCOY_797140_CTRL",
+            label: "FormCuentasCopy",
             resolve: {
                 i18n: function($translatePartialLoader, $translate) {
                     cobis.showMessageWindow.customLoading(true);
@@ -397,11 +462,11 @@ if (typeof cobisMainModule === "undefined") {
             }
         }).otherwise({
             redirectTo: function(routeParams, path, search) {
-                return "/VC_ESTADOCIII_889197?" + $.param(search);
+                return "/VC_CUENTASCOY_797140?" + $.param(search);
             }
         });
-        VC_ESTADOCIII_889197(cobisMainModule);
+        VC_CUENTASCOY_797140(cobisMainModule);
     }]);
 } else {
-    VC_ESTADOCIII_889197(cobisMainModule);
+    VC_CUENTASCOY_797140(cobisMainModule);
 }

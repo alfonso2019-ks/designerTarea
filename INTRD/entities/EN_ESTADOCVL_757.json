@@ -16,7 +16,7 @@
 			"falseValue": null,
 			"labelId": null,
 			"length": 0,
-			"listValues": "1;Soltero|2;Casado",
+			"listValues": "0;Seleccionar|1;Soltero|2;Casado",
 			"name": "estadoCivil",
 			"objectType": null,
 			"order": 1,

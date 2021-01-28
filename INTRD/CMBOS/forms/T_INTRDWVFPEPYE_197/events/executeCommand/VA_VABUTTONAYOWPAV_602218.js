@@ -6,6 +6,6 @@
 task.executeCommand.VA_VABUTTONAYOWPAV_602218 = function(  entities, executeCommandEventArgs ) {
 
     executeCommandEventArgs.commons.execServer = false;
-    entities.EstadoCivil.estadoCivil = "";
     executeCommandEventArgs.commons.api.viewState.hide('G_ESTADOCIIV_934218');
+    entities.EstadoCivil.estadoCivil = 0;
 };

@@ -26,5 +26,19 @@
 		],
 		"entityName": "RespuestaEstadoCivil",
 		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VC_ESTADOCIII_889197",
+		"controlName": "",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "render",
+				"executionType": 1
+			}
+		],
+		"entityName": "",
+		"eventsType": "viewContainerEventType"
 	}
 ]
