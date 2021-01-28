@@ -1,0 +1,30 @@
+[
+	{
+		"attributeName": "estadoCivil",
+		"controlId": "VA_1FPVTJRNDUEBZZE_366218",
+		"controlName": "estadoCivil",
+		"controlType": "ComboBox",
+		"customEvents": [
+			{
+				"eventName": "change",
+				"executionType": 1
+			}
+		],
+		"entityName": "EstadoCivil",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VA_VABUTTONAYOWPAV_602218",
+		"controlName": "VA_VABUTTONAYOWPAV_602218",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 1
+			}
+		],
+		"entityName": "RespuestaEstadoCivil",
+		"eventsType": "visualAttributeEventType"
+	}
+]

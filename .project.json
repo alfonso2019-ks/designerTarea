@@ -1,0 +1,31 @@
+{
+	"culture": "culture",
+	"metadataVersion": "7.2.0.2024 BETA",
+	"moduleId": "INTRD",
+	"modules": [
+		{
+			"moduleId": "INTRD",
+			"moduleName": "introduccion",
+			"subModules": [
+				{
+					"subModuleId": "PREBA",
+					"subModuleName": "prueba"
+				},
+				{
+					"subModuleId": "OPRCN",
+					"subModuleName": "operaciones"
+				},
+				{
+					"subModuleId": "CMBOS",
+					"subModuleName": "combos"
+				},
+				{
+					"subModuleId": "TRNSC",
+					"subModuleName": "transaccion"
+				}
+			]
+		}
+	],
+	"projectName": "Capacitacion",
+	"subModuleId": "TRNSC"
+}

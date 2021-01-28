@@ -1,0 +1,30 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "VA_VABUTTONILFFVKA_407309",
+		"controlName": "VA_VABUTTONILFFVKA_407309",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 1
+			}
+		],
+		"entityName": "Operacion",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VA_VABUTTONSWFYPMA_947309",
+		"controlName": "VA_VABUTTONSWFYPMA_947309",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 1
+			}
+		],
+		"entityName": "Operacion",
+		"eventsType": "visualAttributeEventType"
+	}
+]

@@ -1,0 +1,148 @@
+{
+	"CompositeForms": {
+	},
+	"Entities": {
+		"EN_CUENTADNS_421": {
+			"labels": [
+			]
+		},
+		"EN_CUENTAORN_260": {
+			"labels": [
+			]
+		},
+		"EN_ESTADOCVL_757": {
+			"labels": [
+			]
+		},
+		"EN_OPERACINO_209": {
+			"labels": [
+			]
+		},
+		"EN_RESPUESOD_841": {
+			"labels": [
+			]
+		}
+	},
+	"Forms": {
+		"T_INTRDSYCMDNDB_756": {
+			"blis": [
+			],
+			"entities": {
+				"EN_OPERACINO_209": [
+					"AT33_NUMERO11209",
+					"AT45_RESULTDD209",
+					"AT58_NUMERO22209"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_INTRD_LIMPIAROD_41227",
+				"LBL_INTRD_NMERO1HGS_35521",
+				"LBL_INTRD_NMERO2RDY_28808",
+				"LBL_INTRD_RESULTAOO_58793",
+				"LBL_INTRD_SUMARNHFQ_31142"
+			],
+			"queries": {
+			},
+			"subForms": [
+			]
+		},
+		"T_INTRDWMSQWMEQ_528": {
+			"blis": [
+			],
+			"entities": {
+				"EN_CUENTADNS_421": [
+					"AT53_NUMEROAN421",
+					"AT87_SALDOARH421"
+				],
+				"EN_CUENTAORN_260": [
+					"AT11_VALORART260",
+					"AT63_NUMEROCN260",
+					"AT68_SALDOIDV260"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_INTRD_NMEROCUTN_73571",
+				"LBL_INTRD_SALDOSWME_55102",
+				"LBL_INTRD_TRANSFERI_88002",
+				"LBL_INTRD_VALORATRN_68424"
+			],
+			"queries": {
+			},
+			"subForms": [
+			]
+		},
+		"T_INTRDWTVTXFAS_140": {
+			"blis": [
+			],
+			"entities": {
+				"EN_CUENTADNS_421": [
+					"AT53_NUMEROAN421",
+					"AT87_SALDOARH421"
+				],
+				"EN_CUENTAORN_260": [
+					"AT11_VALORART260",
+					"AT63_NUMEROCN260",
+					"AT68_SALDOIDV260"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_INTRD_NMEROCUTN_73571",
+				"LBL_INTRD_SALDOSWME_55102",
+				"LBL_INTRD_TRANSFERI_88002",
+				"LBL_INTRD_VALORATRN_68424"
+			],
+			"queries": {
+			},
+			"subForms": [
+			]
+		},
+		"T_INTRDWVFPEPYE_197": {
+			"blis": [
+			],
+			"entities": {
+				"EN_ESTADOCVL_757": [
+					"AT89_ESTADOII757"
+				],
+				"EN_RESPUESOD_841": [
+					"AT41_ACTIVIUD841",
+					"AT50_ESTADOVV841"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_INTRD_ACTIVIDCD_94395",
+				"LBL_INTRD_ESTADOCII_87629",
+				"LBL_INTRD_RESTAURRA_35157"
+			],
+			"queries": {
+			},
+			"subForms": [
+			]
+		}
+	},
+	"Queries": {
+	}
+}

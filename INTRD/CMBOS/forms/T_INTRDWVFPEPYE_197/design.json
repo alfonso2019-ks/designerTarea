@@ -1,0 +1,356 @@
+{
+	"autoCrudStr": "F",
+	"cobisPattern": "None",
+	"cobisPatternId": 0,
+	"commands": [
+	],
+	"customEvents": [
+	],
+	"customizationLayer": 0,
+	"customizationLayerDescription": "ECU",
+	"graphicSupportStr": "F",
+	"header": null,
+	"id": {
+		"moduleId": "INTRD",
+		"subModuleId": "CMBOS",
+		"taskId": "T_INTRDWVFPEPYE_197",
+		"version": "1.0.0"
+	},
+	"isCustomized": false,
+	"isImported": false,
+	"mainViewContainerId": "VC_ESTADOCIII_889197",
+	"modeEnabled": 4095,
+	"name": {
+		"$ref": "../../../../INTRD/relations/componentKeys.json#/CMBOS/Forms/T_INTRDWVFPEPYE_197/name"
+	},
+	"setFocus": false,
+	"tempSaveStr": "F",
+	"viewContainers": [
+		{
+			"breadcrumbs": "Automatic",
+			"collapsedStr": "F",
+			"colSpan": 1,
+			"columnsNum": 1,
+			"componentStyle": null,
+			"customEvents": [
+			],
+			"customizationLayer": 0,
+			"customizationLayerDescription": "ECU",
+			"enabled": 4095,
+			"id": {
+				"moduleId": "INTRD",
+				"subModuleId": "CMBOS",
+				"taskId": "T_INTRDWVFPEPYE_197",
+				"taskVersion": "1.0.0",
+				"viewContainerId": "VC_ESTADOCIII_889197"
+			},
+			"isCustomized": false,
+			"layoutType": "Group",
+			"name": "FormEstadoCivil",
+			"options": 0,
+			"responsiveLayouts": null,
+			"responsivity": false,
+			"style": null,
+			"view": {
+				"groups": [
+					{
+						"collapsedStr": "F",
+						"colSpan": 1,
+						"columnsNum": 3,
+						"componentStyle": null,
+						"customEvents": [
+						],
+						"enabled": 4095,
+						"entity": {
+							"$ref": "../../../../INTRD/entities/EN_RESPUESOD_841.json#"
+						},
+						"eventType": 0,
+						"groupId": "G_ESTADOCIIV_934218",
+						"htmlSection": "F",
+						"independentValidation": "F",
+						"isCustomized": false,
+						"layoutType": "Group",
+						"name": "Group2880",
+						"order": 2,
+						"orientation": "V",
+						"responsiveLayouts": null,
+						"responsivity": false,
+						"style": null,
+						"visible": 4095,
+						"visualAttributes": [
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../INTRD/entities/EN_RESPUESOD_841.json#/attributes/AT50_ESTADOVV841"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"format": "",
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../INTRD/assets/languages/INTRD.json#/INTRD/LBL/LBL_INTRD_ESTADOCII_87629"
+									},
+									"labelId": "LBL_INTRD_ESTADOCII_87629",
+									"moduleId": "INTRD"
+								},
+								"maxRecords": null,
+								"name": "estadoCivil",
+								"options": 0,
+								"order": 1,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_1WTMWVGOAUUCDFK_831218",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../INTRD/entities/EN_RESPUESOD_841.json#/attributes/AT41_ACTIVIUD841"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"format": "",
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../INTRD/assets/languages/INTRD.json#/INTRD/LBL/LBL_INTRD_ACTIVIDCD_94395"
+									},
+									"labelId": "LBL_INTRD_ACTIVIDCD_94395",
+									"moduleId": "INTRD"
+								},
+								"maxRecords": null,
+								"name": "actividadAcutual",
+								"options": 0,
+								"order": 2,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_2HBCVKWBJPBGAGF_261218",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+									{
+										"customEventId": "CEVA_010VA_VABUTTONAYOWPAV_602218_627",
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": "T",
+										"eventActions": [
+										],
+										"executionType": 1,
+										"filter": null,
+										"isEnabled": true,
+										"visualAttributeEventType": {
+											"availableExecutionType": 7,
+											"description": "Permite personalizar la acci\u00f3n a ejecutar de un command o de un ActionControl",
+											"eventId": 10,
+											"name": "ExecuteCommand"
+										}
+									}
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"entityQuery": null,
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../INTRD/assets/languages/INTRD.json#/INTRD/LBL/LBL_INTRD_RESTAURRA_35157"
+									},
+									"labelId": "LBL_INTRD_RESTAURRA_35157",
+									"moduleId": "INTRD"
+								},
+								"maxRecords": null,
+								"name": "VA_VABUTTONAYOWPAV_602218",
+								"options": 0,
+								"order": 3,
+								"queryModule": null,
+								"queryVersion": null,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"userControl": {
+									"type": "A",
+									"userControlId": "Button"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_VABUTTONAYOWPAV_602218",
+								"width": null,
+								"widthComposite": "D"
+							}
+						]
+					},
+					{
+						"collapsedStr": "F",
+						"colSpan": 1,
+						"columnsNum": 3,
+						"componentStyle": null,
+						"customEvents": [
+						],
+						"enabled": 4095,
+						"entity": {
+							"$ref": "../../../../INTRD/entities/EN_ESTADOCVL_757.json#"
+						},
+						"eventType": 0,
+						"groupId": "G_ESTADOCVVV_666218",
+						"htmlSection": "F",
+						"independentValidation": "F",
+						"isCustomized": false,
+						"layoutType": "Group",
+						"name": "Group1349",
+						"order": 1,
+						"orientation": "V",
+						"responsiveLayouts": null,
+						"responsivity": false,
+						"style": null,
+						"visible": 4095,
+						"visualAttributes": [
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../INTRD/entities/EN_ESTADOCVL_757.json#/attributes/AT89_ESTADOII757"
+								},
+								"attributeValidations": [
+								],
+								"cacheDuration": 0,
+								"catalogName": null,
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+									{
+										"customEventId": "CEVA_104VA_1FPVTJRNDUEBZZE_366218_968",
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": "T",
+										"eventActions": [
+										],
+										"executionType": 1,
+										"filter": null,
+										"isEnabled": true,
+										"visualAttributeEventType": {
+											"availableExecutionType": 7,
+											"description": "Se ejecuta al cambiar el valor de un VisualAttribute",
+											"eventId": 104,
+											"name": "Changed"
+										}
+									}
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"entityQuery": null,
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../INTRD/assets/languages/INTRD.json#/INTRD/LBL/LBL_INTRD_ESTADOCII_87629"
+									},
+									"labelId": "LBL_INTRD_ESTADOCII_87629",
+									"moduleId": "INTRD"
+								},
+								"maxRecords": null,
+								"minChars": null,
+								"name": "estadoCivil",
+								"options": 0,
+								"order": 1,
+								"queryId": null,
+								"queryMemberText": {
+									"attribute": {
+										"attributeId": null,
+										"name": null
+									},
+									"queryMemberId": null
+								},
+								"queryMemberValue": {
+									"attribute": {
+										"attributeId": null,
+										"name": null
+									},
+									"queryMemberId": null
+								},
+								"queryModule": null,
+								"queryVersion": null,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"type": null,
+								"userControl": {
+									"type": "I",
+									"userControlId": "ComboBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_1FPVTJRNDUEBZZE_366218",
+								"width": null,
+								"widthComposite": "D"
+							}
+						]
+					}
+				],
+				"id": {
+					"version": "1.0.0",
+					"viewId": "VW_ESTADOCIVI_218"
+				},
+				"metadataVersion": "7.2.0.2024 BETA",
+				"modules": [
+					{
+						"moduleId": "INTRD"
+					}
+				],
+				"name": "View of FormEstadoCivil"
+			}
+		}
+	]
+}

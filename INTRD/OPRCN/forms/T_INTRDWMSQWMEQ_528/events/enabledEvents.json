@@ -1,0 +1,30 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "VA_VABUTTONMWMLRYL_310211",
+		"controlName": "VA_VABUTTONMWMLRYL_310211",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 1
+			}
+		],
+		"entityName": "CuentaOrigen",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VC_CUENTASRFL_158528",
+		"controlName": "",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "initData",
+				"executionType": 1
+			}
+		],
+		"entityName": "",
+		"eventsType": "viewContainerEventType"
+	}
+]

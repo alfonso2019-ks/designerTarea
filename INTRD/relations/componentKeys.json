@@ -1,0 +1,61 @@
+{
+	"CMBOS": {
+		"CompositeForms": {
+		},
+		"Forms": {
+			"T_INTRDWVFPEPYE_197": {
+				"name": "FormEstadoCivil"
+			}
+		},
+		"Queries": {
+		},
+		"SubForms": {
+		}
+	},
+	"Entities": {
+		"EN_CUENTADNS_421": {
+			"name": "CuentaDestino"
+		},
+		"EN_CUENTAORN_260": {
+			"name": "CuentaOrigen"
+		},
+		"EN_ESTADOCVL_757": {
+			"name": "EstadoCivil"
+		},
+		"EN_OPERACINO_209": {
+			"name": "Operacion"
+		},
+		"EN_RESPUESOD_841": {
+			"name": "RespuestaEstadoCivil"
+		}
+	},
+	"OPRCN": {
+		"CompositeForms": {
+		},
+		"Forms": {
+			"T_INTRDSYCMDNDB_756": {
+				"name": "sumarForm"
+			},
+			"T_INTRDWMSQWMEQ_528": {
+				"name": "FormCuentas"
+			}
+		},
+		"Queries": {
+		},
+		"SubForms": {
+		}
+	},
+	"TRNSC": {
+		"CompositeForms": {
+		},
+		"Forms": {
+			"T_INTRDWTVTXFAS_140": {
+				"name": "FormCuentas"
+			}
+		},
+		"Queries": {
+		},
+		"SubForms": {
+		}
+	}
+}
