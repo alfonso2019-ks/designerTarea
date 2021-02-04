@@ -13,14 +13,32 @@
 		}
 	},
 	"Entities": {
+		"EN_1GLEERHHP_174": {
+			"name": "Entity1"
+		},
+		"EN_2QLJEVRXD_226": {
+			"name": "Entity2"
+		},
+		"EN_CUENTACNN_200": {
+			"name": "CuentaCorriente"
+		},
 		"EN_CUENTADNS_421": {
 			"name": "CuentaDestino"
+		},
+		"EN_CUENTADOE_370": {
+			"name": "CuentaDeAhorro"
 		},
 		"EN_CUENTAORN_260": {
 			"name": "CuentaOrigen"
 		},
 		"EN_ESTADOCVL_757": {
 			"name": "EstadoCivil"
+		},
+		"EN_GRUPOAIQH_970": {
+			"name": "Grupo"
+		},
+		"EN_HERRAMIET_966": {
+			"name": "Herramienta"
 		},
 		"EN_OPERACINO_209": {
 			"name": "Operacion"
@@ -38,6 +56,28 @@
 			},
 			"T_INTRDWMSQWMEQ_528": {
 				"name": "FormCuentas"
+			}
+		},
+		"Queries": {
+		},
+		"SubForms": {
+		}
+	},
+	"PREBA": {
+		"CompositeForms": {
+		},
+		"Forms": {
+			"T_INTRDBSXMMYRL_653": {
+				"name": "FormGrupo"
+			},
+			"T_INTRDXWRQHZCT_394": {
+				"name": "FormCuentaDeAhorro"
+			},
+			"T_INTRDYCAHWYFE_165": {
+				"name": "FormCuentaCorriente"
+			},
+			"T_INTRDZLSCMUCO_910": {
+				"name": "FormHerramienta"
 			}
 		},
 		"Queries": {

@@ -21,7 +21,7 @@
 		"customEvents": [
 			{
 				"eventName": "executeCommand",
-				"executionType": 1
+				"executionType": 3
 			}
 		],
 		"entityName": "Operacion",

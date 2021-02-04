@@ -1,0 +1,183 @@
+{
+	"filename": "D:\\descargasCMC\\Conversion sp\\sp_tarea\\sp_herramienta.sp",
+	"procedure": {
+		"database": "cobis",
+		"name": "sp_herramienta",
+		"owner": "dbo",
+		"parameters": [
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@s_ssn"
+			},
+			{
+				"dataType": "login",
+				"direction": "in",
+				"name": "@s_user"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@s_sesn"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_term"
+			},
+			{
+				"dataType": "datetime",
+				"direction": "in",
+				"name": "@s_date"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_srv"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_lsrv"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@s_rol"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@s_ofi"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@s_org_err"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@s_error"
+			},
+			{
+				"dataType": "tinyint",
+				"direction": "in",
+				"name": "@s_sev"
+			},
+			{
+				"dataType": "descripcion",
+				"direction": "in",
+				"name": "@s_msg"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@s_org"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@t_debug"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@t_file"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@t_from"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@t_trn"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_operacion"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@i_modo"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_htipo"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_herramienta"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_ref"
+			}
+		],
+		"queries": [
+			{
+				"_idQuery": "610737cb-e915-45e5-8d87-20a45d8b423b",
+				"columns": [
+					"Herramienta",
+					"Referencia"
+				],
+				"editMode": false,
+				"queryText": "select\r\n\t\t\t\t\u0027Herramienta\u0027=he_herramienta,\r\n\t\t\t\t\u0027Referencia\u0027=he_ref\r\n\t\t\tfrom"
+			},
+			{
+				"_idQuery": "d86a3d49-3732-4578-8f48-be7dd7e618a6",
+				"columns": [
+					"Herramienta",
+					"Referencia"
+				],
+				"editMode": false,
+				"queryText": "select\r\n\t\t\t\t\u0027Herramienta\u0027=he_herramienta,\r\n\t\t\t\t\u0027Referencia\u0027=he_ref\r\n\t\t\tfrom"
+			},
+			{
+				"_idQuery": "453dd0f0-7033-406b-8c96-f7e86a775672",
+				"columns": [
+					"{0}"
+				],
+				"editMode": false,
+				"queryText": "select he_ref\r\n\t\tfrom"
+			},
+			{
+				"_idQuery": "7cccd0ca-4c1f-4950-9fca-ff70945458d8",
+				"columns": [
+					"Nemonico"
+				],
+				"editMode": false,
+				"queryText": "select\r\n\t\t\t\t\t\u0027Nemonico\u0027=he_herramienta\r\n\t\t\t\tfrom"
+			},
+			{
+				"_idQuery": "c64d154d-5a5a-4c32-958f-fa2a6bd2f6ea",
+				"columns": [
+					"Nemonico"
+				],
+				"editMode": false,
+				"queryText": "select\r\n\t\t\t\t\t\u0027Nemonico\u0027=he_herramienta\r\n\t\t\t\tfrom"
+			}
+		],
+		"variables": [
+			{
+				"dataType": "int",
+				"name": "@w_return"
+			},
+			{
+				"dataType": "varchar",
+				"name": "@w_sp_name"
+			},
+			{
+				"dataType": "datetime",
+				"name": "@w_today"
+			}
+		]
+	}
+}

@@ -1,0 +1,77 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+		{
+			"entityId": "EN_HERRAMIET_966",
+			"module": {
+				"moduleId": "INTRD",
+				"moduleName": "introduccion"
+			},
+			"name": "Herramienta"
+		}
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "smallint",
+			"dataType": "SMALLINT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "15261"
+		},
+		{
+			"attributeId": "",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "I"
+		},
+		{
+			"attributeId": "AT16_HERRAMEE966",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "EN_HERRAMIET_966",
+			"format": "",
+			"name": "@i_herramienta",
+			"type": "ATTRIBUTE",
+			"value": ""
+		},
+		{
+			"attributeId": "AT21_URLUJYWQ966",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "EN_HERRAMIET_966",
+			"format": "",
+			"name": "@i_ref",
+			"type": "ATTRIBUTE",
+			"value": ""
+		}
+	],
+	"name": "BLI_InsertarHerramienta",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI1284_bli_insertarherramienta",
+	"patternName": "BLI_InsertarHerramienta",
+	"patternType": "Bli",
+	"queries": [
+	],
+	"resultSets": [
+	],
+	"returnEntity": [
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.sp_herramienta",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}

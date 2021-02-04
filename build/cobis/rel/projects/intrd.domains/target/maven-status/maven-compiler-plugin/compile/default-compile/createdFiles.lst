@@ -1,0 +1,11 @@
+com\cobiscorp\cobis\intrd\model\CuentaCorriente.class
+com\cobiscorp\cobis\intrd\model\CuentaDeAhorro.class
+com\cobiscorp\cobis\intrd\model\CuentaDestino.class
+com\cobiscorp\cobis\intrd\model\CuentaOrigen.class
+com\cobiscorp\cobis\intrd\model\Entity2.class
+com\cobiscorp\cobis\intrd\model\EstadoCivil.class
+com\cobiscorp\cobis\intrd\model\Entity1.class
+com\cobiscorp\cobis\intrd\model\RespuestaEstadoCivil.class
+com\cobiscorp\cobis\intrd\model\Operacion.class
+com\cobiscorp\cobis\intrd\model\Grupo.class
+com\cobiscorp\cobis\intrd\model\Herramienta.class

@@ -1,0 +1,77 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+		{
+			"entityId": "EN_CUENTACNN_200",
+			"module": {
+				"moduleId": "INTRD",
+				"moduleName": "introduccion"
+			},
+			"name": "CuentaCorriente"
+		}
+	],
+	"inputParameters": [
+		{
+			"attributeId": "AT20_SALDOCVV200",
+			"bddType": "float",
+			"dataType": "DOUBLE",
+			"direction": "in",
+			"entityId": "EN_CUENTACNN_200",
+			"format": "",
+			"name": "@i_saldo",
+			"type": "ATTRIBUTE",
+			"value": ""
+		},
+		{
+			"attributeId": "AT34_NUMEROAT200",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "EN_CUENTACNN_200",
+			"format": "",
+			"name": "@i_numero_cuenta",
+			"type": "ATTRIBUTE",
+			"value": ""
+		},
+		{
+			"attributeId": "AT86_CEDULACL200",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "EN_CUENTACNN_200",
+			"format": "",
+			"name": "@i_ced_cliente",
+			"type": "ATTRIBUTE",
+			"value": ""
+		},
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "I"
+		}
+	],
+	"name": "BLI_InsertarCuentaCorriente",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI6138_bli_insertarcuentacorriente",
+	"patternName": "BLI_InsertarCuentaCorriente",
+	"patternType": "Bli",
+	"queries": [
+	],
+	"resultSets": [
+	],
+	"returnEntity": [
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.g1_sp_cuenta_corriente",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}

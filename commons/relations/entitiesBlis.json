@@ -1,0 +1,72 @@
+{
+	"INTRD": [
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_HERRAMIET_966",
+						"moduleId": "INTRD",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI1284_bli_insertarherramienta",
+			"nameBli": "BLI_InsertarHerramienta"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_CUENTADOE_370",
+						"moduleId": "INTRD",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI5174_bli_insertarcuenta",
+			"nameBli": "BLI_InsertarCuenta"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_CUENTACNN_200",
+						"moduleId": "INTRD",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI6138_bli_insertarcuentacorriente",
+			"nameBli": "BLI_InsertarCuentaCorriente"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_GRUPOAIQH_970",
+						"moduleId": "INTRD",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI7608_bli_insertargrupo",
+			"nameBli": "BLI_InsertarGrupo"
+		}
+	]
+}

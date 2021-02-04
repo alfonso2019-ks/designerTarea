@@ -1,0 +1,16 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "VA_VABUTTONCQGXQHZ_538453",
+		"controlName": "",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 2
+			}
+		],
+		"entityName": "Grupo",
+		"eventsType": "visualAttributeEventType"
+	}
+]

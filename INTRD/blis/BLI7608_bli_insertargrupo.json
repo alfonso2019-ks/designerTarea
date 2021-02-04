@@ -1,0 +1,88 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+		{
+			"entityId": "EN_GRUPOAIQH_970",
+			"module": {
+				"moduleId": "INTRD",
+				"moduleName": "introduccion"
+			},
+			"name": "Grupo"
+		}
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "15785"
+		},
+		{
+			"attributeId": "AT32_DESCRPNO970",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "EN_GRUPOAIQH_970",
+			"format": "",
+			"name": "@i_descripcion",
+			"type": "ATTRIBUTE",
+			"value": ""
+		},
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "I"
+		},
+		{
+			"attributeId": "AT42_NIVELJVB970",
+			"bddType": "tinyint",
+			"dataType": "TINYINT",
+			"direction": "in",
+			"entityId": "EN_GRUPOAIQH_970",
+			"format": "",
+			"name": "@i_nivel",
+			"type": "ATTRIBUTE",
+			"value": ""
+		},
+		{
+			"attributeId": "AT24_UBICACIN970",
+			"bddType": "tinyint",
+			"dataType": "TINYINT",
+			"direction": "in",
+			"entityId": "EN_GRUPOAIQH_970",
+			"format": "",
+			"name": "@i_ubicacion",
+			"type": "ATTRIBUTE",
+			"value": ""
+		}
+	],
+	"name": "BLI_InsertarGrupo",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI7608_bli_insertargrupo",
+	"patternName": "BLI_InsertarGrupo",
+	"patternType": "Bli",
+	"queries": [
+	],
+	"resultSets": [
+	],
+	"returnEntity": [
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.sp_grupos",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}

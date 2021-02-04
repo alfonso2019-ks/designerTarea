@@ -1,0 +1,4 @@
+com\cobiscorp\cobis\intrd\bli\services\impl\BLI7608_bli_insertargrupo.class
+com\cobiscorp\cobis\intrd\bli\services\impl\BLI1284_bli_insertarherramienta.class
+com\cobiscorp\cobis\intrd\bli\services\impl\BLI6138_bli_insertarcuentacorriente.class
+com\cobiscorp\cobis\intrd\bli\services\impl\BLI5174_bli_insertarcuenta.class

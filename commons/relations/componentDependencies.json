@@ -2,7 +2,15 @@
 	"CompositeForms": {
 	},
 	"Entities": {
+		"EN_CUENTACNN_200": {
+			"labels": [
+			]
+		},
 		"EN_CUENTADNS_421": {
+			"labels": [
+			]
+		},
+		"EN_CUENTADOE_370": {
 			"labels": [
 			]
 		},
@@ -11,6 +19,14 @@
 			]
 		},
 		"EN_ESTADOCVL_757": {
+			"labels": [
+			]
+		},
+		"EN_GRUPOAIQH_970": {
+			"labels": [
+			]
+		},
+		"EN_HERRAMIET_966": {
 			"labels": [
 			]
 		},
@@ -24,6 +40,33 @@
 		}
 	},
 	"Forms": {
+		"T_INTRDBSXMMYRL_653": {
+			"blis": [
+			],
+			"entities": {
+				"EN_GRUPOAIQH_970": [
+					"AT24_UBICACIN970",
+					"AT32_DESCRPNO970",
+					"AT42_NIVELJVB970"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_INTRD_DESCRIPIC_32470",
+				"LBL_INTRD_INSERTARR_41126",
+				"LBL_INTRD_NIVELENTP_13512",
+				"LBL_INTRD_UBICACINN_42128"
+			],
+			"queries": {
+			},
+			"subForms": [
+			]
+		},
 		"T_INTRDSYCMDNDB_756": {
 			"blis": [
 			],
@@ -136,6 +179,88 @@
 				"LBL_INTRD_ACTIVIDCD_94395",
 				"LBL_INTRD_ESTADOCII_87629",
 				"LBL_INTRD_RESTAURRA_35157"
+			],
+			"queries": {
+			},
+			"subForms": [
+			]
+		},
+		"T_INTRDXWRQHZCT_394": {
+			"blis": [
+				"BLI5174_bli_insertarcuenta"
+			],
+			"entities": {
+				"EN_CUENTADOE_370": [
+					"AT48_SALDOKJN370",
+					"AT54_CEDULAEE370",
+					"AT90_NUMEROEE370"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_INTRD_CDULADELT_80034",
+				"LBL_INTRD_INSERTARR_41126",
+				"LBL_INTRD_NMEROCUTN_73571",
+				"LBL_INTRD_SALDOSWME_55102"
+			],
+			"queries": {
+			},
+			"subForms": [
+			]
+		},
+		"T_INTRDYCAHWYFE_165": {
+			"blis": [
+				"BLI6138_bli_insertarcuentacorriente"
+			],
+			"entities": {
+				"EN_CUENTACNN_200": [
+					"AT20_SALDOCVV200",
+					"AT34_NUMEROAT200",
+					"AT86_CEDULACL200"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_INTRD_CDULADELT_80034",
+				"LBL_INTRD_NUMEROCUT_27145",
+				"LBL_INTRD_REGISTRRA_29364",
+				"LBL_INTRD_SALDOSWME_55102"
+			],
+			"queries": {
+			},
+			"subForms": [
+			]
+		},
+		"T_INTRDZLSCMUCO_910": {
+			"blis": [
+				"BLI1284_bli_insertarherramienta"
+			],
+			"entities": {
+				"EN_HERRAMIET_966": [
+					"AT16_HERRAMEE966",
+					"AT21_URLUJYWQ966"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_INTRD_CATALOGOO_33349",
+				"LBL_INTRD_REGISTRRA_29364",
+				"LBL_INTRD_URLKWTLGN_17299"
 			],
 			"queries": {
 			},

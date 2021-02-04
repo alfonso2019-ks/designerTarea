@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component enabled="true" name="com.cobiscorp.cobis.intrd.bli.services.impl.BLI1284_bli_insertarherramienta">
+        <implementation class="com.cobiscorp.cobis.intrd.bli.services.impl.BLI1284_bli_insertarherramienta"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.bli.api.IBLIExecutor"/>
+        </service>
+        <property name="task.module" type="String" value="INTRD" private="false"/>
+        <property name="bli.id" type="String" value="BLI1284_bli_insertarherramienta" private="false"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.intrd.bli.services.impl.BLI1284_bli_insertarherramienta" private="false"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.intrd.bli.services.impl.BLI5174_bli_insertarcuenta">
+        <implementation class="com.cobiscorp.cobis.intrd.bli.services.impl.BLI5174_bli_insertarcuenta"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.bli.api.IBLIExecutor"/>
+        </service>
+        <property name="task.module" type="String" value="INTRD" private="false"/>
+        <property name="bli.id" type="String" value="BLI5174_bli_insertarcuenta" private="false"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.intrd.bli.services.impl.BLI5174_bli_insertarcuenta" private="false"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.intrd.bli.services.impl.BLI6138_bli_insertarcuentacorriente">
+        <implementation class="com.cobiscorp.cobis.intrd.bli.services.impl.BLI6138_bli_insertarcuentacorriente"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.bli.api.IBLIExecutor"/>
+        </service>
+        <property name="task.module" type="String" value="INTRD" private="false"/>
+        <property name="bli.id" type="String" value="BLI6138_bli_insertarcuentacorriente" private="false"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.intrd.bli.services.impl.BLI6138_bli_insertarcuentacorriente" private="false"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.intrd.bli.services.impl.BLI7608_bli_insertargrupo">
+        <implementation class="com.cobiscorp.cobis.intrd.bli.services.impl.BLI7608_bli_insertargrupo"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.bli.api.IBLIExecutor"/>
+        </service>
+        <property name="task.module" type="String" value="INTRD" private="false"/>
+        <property name="bli.id" type="String" value="BLI7608_bli_insertargrupo" private="false"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.intrd.bli.services.impl.BLI7608_bli_insertargrupo" private="false"/>
+    </scr:component>
+</components>

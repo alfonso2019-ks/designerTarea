@@ -5,7 +5,7 @@
 		"forms": {
 			"INTRD": [
 				{
-					"generated": 2,
+					"generated": 4,
 					"moduleId": "INTRD",
 					"name": "sumarForm",
 					"subModuleId": "OPRCN",
@@ -58,6 +58,126 @@
 			"INTRD"
 		],
 		"name": "CivilState"
+	},
+	"APP_CUENTAAHORR_120": {
+		"externalModules": {
+		},
+		"forms": {
+			"INTRD": [
+				{
+					"generated": 4,
+					"moduleId": "INTRD",
+					"name": "FormCuentaDeAhorro",
+					"subModuleId": "PREBA",
+					"taskId": "T_INTRDXWRQHZCT_394",
+					"type": "Simple form"
+				}
+			]
+		},
+		"generate": {
+			"categoryName": "Cobiscorp",
+			"customEventImpl": "Custom",
+			"customEventImplPath": "{projectPath}\\build",
+			"displayName": "cuentaAhorro",
+			"mode": "Development",
+			"type": "HTML5"
+		},
+		"id": "APP_CUENTAAHORR_120",
+		"mainPortletTaskId": "T_INTRDXWRQHZCT_394",
+		"modules": [
+			"INTRD"
+		],
+		"name": "cuentaAhorro"
+	},
+	"APP_CUENTACOERI_576": {
+		"externalModules": {
+		},
+		"forms": {
+			"INTRD": [
+				{
+					"generated": 4,
+					"moduleId": "INTRD",
+					"name": "FormCuentaCorriente",
+					"subModuleId": "PREBA",
+					"taskId": "T_INTRDYCAHWYFE_165",
+					"type": "Simple form"
+				}
+			]
+		},
+		"generate": {
+			"categoryName": "Cobiscorp",
+			"customEventImpl": "Custom",
+			"customEventImplPath": "{projectPath}\\build",
+			"displayName": "CuentaCorriente",
+			"mode": "Development",
+			"type": "HTML5"
+		},
+		"id": "APP_CUENTACOERI_576",
+		"mainPortletTaskId": "T_INTRDYCAHWYFE_165",
+		"modules": [
+			"INTRD"
+		],
+		"name": "CuentaCorriente"
+	},
+	"APP_GRUPOYMIXEO_984": {
+		"externalModules": {
+		},
+		"forms": {
+			"INTRD": [
+				{
+					"generated": 4,
+					"moduleId": "INTRD",
+					"name": "FormGrupo",
+					"subModuleId": "PREBA",
+					"taskId": "T_INTRDBSXMMYRL_653",
+					"type": "Simple form"
+				}
+			]
+		},
+		"generate": {
+			"categoryName": "Cobiscorp",
+			"customEventImpl": "Custom",
+			"customEventImplPath": "{projectPath}\\build",
+			"displayName": "Grupo",
+			"mode": "Development",
+			"type": "HTML5"
+		},
+		"id": "APP_GRUPOYMIXEO_984",
+		"mainPortletTaskId": "T_INTRDBSXMMYRL_653",
+		"modules": [
+			"INTRD"
+		],
+		"name": "Grupo"
+	},
+	"APP_HERRAMIENNN_191": {
+		"externalModules": {
+		},
+		"forms": {
+			"INTRD": [
+				{
+					"generated": 4,
+					"moduleId": "INTRD",
+					"name": "FormHerramienta",
+					"subModuleId": "PREBA",
+					"taskId": "T_INTRDZLSCMUCO_910",
+					"type": "Simple form"
+				}
+			]
+		},
+		"generate": {
+			"categoryName": "Cobiscorp",
+			"customEventImpl": "Custom",
+			"customEventImplPath": "{projectPath}\\build",
+			"displayName": "Herramienta",
+			"mode": "Development",
+			"type": "HTML5"
+		},
+		"id": "APP_HERRAMIENNN_191",
+		"mainPortletTaskId": "T_INTRDZLSCMUCO_910",
+		"modules": [
+			"INTRD"
+		],
+		"name": "Herramienta"
 	},
 	"APP_TRANSACCNNO_309": {
 		"externalModules": {

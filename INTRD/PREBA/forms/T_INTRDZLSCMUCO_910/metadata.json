@@ -1,0 +1,12 @@
+{
+	"entities": [
+		{
+			"entityId": "EN_HERRAMIET_966",
+			"isContextEntity": null,
+			"moduleId": "INTRD",
+			"related": false
+		}
+	],
+	"queries": [
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"entities": [
+		{
+			"entityId": "EN_CUENTACNN_200",
+			"isContextEntity": null,
+			"moduleId": "INTRD",
+			"related": false
+		}
+	],
+	"queries": [
+	]
+}
